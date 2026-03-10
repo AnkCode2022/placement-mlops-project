@@ -1,8 +1,8 @@
 from kfp import dsl
 
 @dsl.component(
-    packages_to_install=["pandas", "google-cloud-bigquery", "xgboost", "pyarrow", "db-data-utils"],
-    base_image="python:3.9"
+    packages_to_install=["pandas", "google-cloud-bigquery", "xgboost", "pyarrow"],
+    base_image="python:3.10"
 )
 def train_placement_model(
     project_id: str,

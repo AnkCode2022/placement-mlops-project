@@ -1,0 +1,5 @@
+PROJECT_ID = "project-2b61f9df-a9c6-42b9-853"
+REGION = "us-central1"
+BUCKET_URI = "gs://vertexx-buckett"
+BQ_TABLE = "project-2b61f9df-a9c6-42b9-853.vertexx_project.tbl1"
+PIPELINE_ROOT = f"{BUCKET_URI}/pipeline_root"
